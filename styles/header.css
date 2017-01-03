@@ -69,7 +69,6 @@ header nav ul li a {
 	position: relative;
 }
 .dropdown__header {
-	box-sizing: content-box;
 	color: inherit;
 	padding: 15px 0;
 	padding-right: 25%;
@@ -80,32 +79,47 @@ header nav ul li a {
 	background-position: 160px 25px;
 	position: relative;
 }
-.menu > li:hover > a{
+.dropdown:hover .dropdown__header{
 	color: #105a8f;
 	text-decoration: underline;
-	border: solid 5px #71a2c2;
-	border-radius: 5px;
+	box-shadow: 0px 7px 0px 0px #ffffff, 0px 0px 0px 7px #71a2c2;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	z-index: 99;
 }
 .fulldrop {
 	visibility: hidden;
 	position: absolute;
 	list-style: none;
-	top: 75px;
+	top: 66px;
+	left: -7px;
 	width: 400%;
 	background-color: #ffffff;
 	text-align: left;
-	z-index: 99;
+	z-index: 66;
 	overflow: hidden;
-	border: solid 5px #71a2c2;
-	border-radius: 5px;
+	border: solid 7px #71a2c2; 
+	border-radius: 7px;
 }
 .fulldrop-right {
-	right: 0;
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top: 66px;
+	right: -7px;
+	width: 400%;
+	background-color: #ffffff;
+	text-align: left;
+	z-index: 66;
+	overflow: hidden;
+	border: solid 7px #71a2c2; 
+	border-radius: 7px;
 }
-.menu > li:hover {
+.dropdown:hover {
 	background-color: #ffffff;
 }
-.menu > li:hover .fulldrop {
+.dropdown:hover .fulldrop,
+.dropdown:hover .fulldrop-right {
 	opacity: 1;
 	visibility: visible;
 }
