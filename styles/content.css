@@ -1,0 +1,256 @@
+.img-brand {
+	height: 50px;
+	background-image: url(../images/sprite_brand.png);
+}
+.img-brand1 {
+	background-position: 0px 0px;
+}
+.img-brand2 {
+	background-position: -150px 0px;
+}
+.img-brand3 {
+	background-position: -295px 0px;
+}
+.img-brand4 {
+	background-position: -425px 0px;
+}
+.img-brand5 {
+	background-position: -12px -65px;
+}
+.img-brand6 {
+	background-position: -150px -65px;
+}
+.img-brand7 {
+	background-position: -280px -65px;
+}
+.img-brand8 {
+	background-position: -440px -65px;
+}
+.img-brand9 {
+	background-position: -12px 120px;
+}
+.img-brand10 {
+	background-position: -150px 120px;
+}
+.img-brand11 {
+	background-position: -295px 120px;
+}
+.img-brand12 {
+	background-position: -440px 120px;
+}
+.img-brand13 {
+	background-position: -12px 53px;
+}
+.img-brand14 {
+	background-position: -150px 53px;
+}
+.img-brand15 {
+	background-position: -295px 53px;
+}
+.img-brand16 {
+	background-position: -425px 53px;
+}
+/**/
+.promo {
+	border: solid 10px #71a2c2;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	position: relative;
+}	
+.poster {
+	overflow: hidden;
+}
+.viewPort {
+	width: 500%;
+}
+.toggle {
+	position: absolute;
+	bottom: -30px;
+	left: 10px;
+}
+.btn-x {
+	display: inline-block;
+	width: 20px;
+	height: 22px;
+
+	-moz-border-radius: 0px 0px 6px 6px;
+	-webkit-border-radius: 0px 0px 6px 6px;
+	border-radius: 0px 0px 4px 4px;
+
+	background: #71a2c2;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 4px;
+	border: solid 2px #71a2c2;
+	border-top-color: transparent;
+	font-size: 13px;
+	line-height: 18px;
+}
+.btn-x:hover{
+	background: white;
+	color: red;
+}
+.inp {
+	display: none;
+}
+.pic {
+	width: 20%;
+	display: block;
+	float: left;
+	background: #FFFFFF url("../images/slide_big.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.inp:nth-child(1):checked ~ .viewPort {
+	margin-left: 0;
+	transition: 1s;
+}
+.inp:nth-child(2):checked ~ .viewPort {
+	margin-left: -100%;
+	transition: 1s;
+}
+.inp:nth-child(3):checked ~ .viewPort {
+	margin-left: -200%;
+	transition: 1s;
+}
+.inp:nth-child(4):checked ~ .viewPort {
+	margin-left: -300%;
+	transition: 1s;
+}
+.inp:nth-child(5):checked ~ .viewPort {
+	margin-left: -400%;
+	transition: 1s;
+}
+
+/*********************************special-offers section*********************************/
+.special-offers__toggle label {
+	cursor: pointer;
+}
+.img-h {
+	height: 125px;
+}
+.super-discount, 
+.super-price, 
+.super-gift {
+	position: relative;
+}
+.super-discount:after, 
+.super-price:after, 
+.super-gift:after {
+	content: " ";
+	display: block;
+	background: url(../images/sprite_supers.png) no-repeat;
+	position: absolute;
+	z-index: 666;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 40px;
+}
+.super-discount:after {
+	background-position: 0 0;
+}
+.super-price:after {
+	background-position: -70px 0;
+}
+.super-gift:after {
+	background-position: -140px 0;
+}
+.special-offers__poster {
+	width: 100%;
+	overflow: hidden;
+}
+.special-offers__container {
+	position: relative;
+}
+.positioning {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.special-offers__viewport {
+	width: 200%;
+	display: none;
+	transition: margin-left .666s;
+}
+.special-offers__pic {
+	width: 10%;
+	float: left;
+}
+.special-offers__inp:nth-child(1):checked ~ .special-offers__container .special-offers__viewport:nth-child(1) {
+	display: block;
+}
+.special-offers__inp:nth-child(2):checked ~ .special-offers__container .special-offers__viewport:nth-child(2) {
+	display: block;
+}
+.special-offers__inp:nth-child(3):checked ~ .special-offers__container .special-offers__viewport:nth-child(3) {
+	display: block;
+}
+.special-offers__inp:nth-child(4):checked ~ .special-offers__container .special-offers__viewport:nth-child(4) {
+	display: block;
+}
+.arrow-fefe {
+	position: absolute;
+	background: url(../images/sprite_arrows.png) no-repeat;
+	height: 55px;
+	width: 25px;
+	top: 50px;
+	cursor: pointer;
+	z-index: 999;
+}
+.arrow-fefe-l-a {
+	left: 0;
+	background-position: 0 -60px;
+}
+.arrow-fefe-l {
+	left: 0;
+	background-position: 0 0;
+}
+.arrow-fefe-r-a {
+	right: 0;
+	background-position: -25px -60px;
+}
+.arrow-fefe-r {
+	right: 0;
+	background-position: -25px 0px;
+}
+
+/**********************************manufacturers section**********************************/
+.manufacturers {
+
+}
+.manufacturers__logo {
+
+}
+.manufacturers__link {
+
+}
+.manufacturers__link ul {
+	
+}
+.manufacturers__link ul li {
+	list-style-type: none;
+}
+/*******************************articles-and-reviews section*******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
