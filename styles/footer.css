@@ -7,6 +7,9 @@ footer {
 footer nav {
 	margin: 5px 0 25px 0;
 }
+footer nav ul li {
+	margin: 0 5px;
+}
 .footer__social li {
 	list-style-type: none;
 }

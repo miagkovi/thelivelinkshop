@@ -145,9 +145,20 @@
 .promo__inp:nth-child(5):checked ~ .promo__viewPort {
 	margin-left: -400%;
 }
+/*****************************************shares*****************************************/
+.share {
 
+}
+.share__img {
+	margin: 5px 20px;
+	float: left;
+}
+.share__text {
 
+}
+.share__link {
 
+}
 /*********************************special-offers section*********************************/
 .img-h {
 	height: 125px;
@@ -293,13 +304,15 @@
 	right: 0;
 	background-position: -25px 0px;
 }
-
+.btn-ssss {
+	float: right;
+}
 /**********************************manufacturers section**********************************/
 .manufacturers {
 
 }
 .manufacturers__logo {
-
+	margin: 20px 0;
 }
 .manufacturers__link {
 

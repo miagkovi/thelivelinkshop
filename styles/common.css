@@ -3,8 +3,14 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body {
+	font-size: 1em;
+}
 img {
 	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
 }
 .display {
 	display: block;
@@ -34,6 +40,14 @@ img {
 .a-dtd {
 	text-decoration: none;
 	border-bottom: 1px dashed #316998;
+}
+.skew {
+	-webkit-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+.line-through {
+	text-decoration: line-through;
+	color: #888888;
 }
 nav {
 
