@@ -1,3 +1,29 @@
 footer {
-	border-top: 4px blue solid;
+	border-top: 4px #175b8e solid;
+}
+.footer__copyrights {
+	margin: 10px 0;
+}
+footer nav {
+	margin: 5px 0 25px 0;
+}
+.footer__social li {
+	list-style-type: none;
+}
+.social-icon {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	background: url(../images/sprite_social.png) no-repeat;
+}
+.social-text {
+}
+.social-icon__fb {
+	background-position: 0px 0px;
+}
+.social-icon__vk {
+	background-position: 0px -32px;
+}
+.social-icon__tw {
+	background-position: 0px -64px;
 }

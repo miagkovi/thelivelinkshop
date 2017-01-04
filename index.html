@@ -374,68 +374,68 @@
 			<div class="promo-and-shares row">
 				<div class="col-2-of-3-xl promo">
 					<div class="poster">
-						<input class="inp" id="1" type="radio" name="toggle" />
-						<input class="inp" id="2" type="radio" name="toggle" checked="checked" />
-						<input class="inp" id="3" type="radio" name="toggle" />
-						<input class="inp" id="4" type="radio" name="toggle" />
-						<input class="inp" id="5" type="radio" name="toggle" />
-						<div class="viewPort">
-							<div class="pic">
+						<input class="promo__inp" id="1" type="radio" name="toggle" checked="checked" />
+						<input class="promo__inp" id="2" type="radio" name="toggle" />
+						<input class="promo__inp" id="3" type="radio" name="toggle" />
+						<input class="promo__inp" id="4" type="radio" name="toggle" />
+						<input class="promo__inp" id="5" type="radio" name="toggle" />
+						<div class="promo__viewPort">
+							<div class="promo__pic">
 								<div class="col-1-of-2-xl">
 									<h1>Инновационные решения Cisco Catalyst Switches</h1>
 									<p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
-									<a href="#" class="btn-c">Ознакомиться с решением</a>
+									<a href="#" class="promo__btn-link">Ознакомиться с решением</a>
 								</div>
 							</div>
-							<div class="pic">
+							<div class="promo__pic">
 								<div class="col-1-of-2-xl">
 									<h1>Инновационные решения Cisco Catalyst Switches</h1>
 									<p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
-									<a href="#" class="btn-c">Ознакомиться с решением</a>
+									<a href="#" class="promo__btn-link">Ознакомиться с решением</a>
 								</div>
 							</div>
-							<div class="pic">
+							<div class="promo__pic">
 								<div class="col-1-of-2-xl">
 									<h1>Инновационные решения Cisco Catalyst Switches</h1>
 									<p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
-									<a href="#" class="btn-c">Ознакомиться с решением</a>
+									<a href="#" class="promo__btn-link">Ознакомиться с решением</a>
 								</div>
 							</div>
-							<div class="pic">
+							<div class="promo__pic">
 								<div class="col-1-of-2-xl">
 									<h1>Инновационные решения Cisco Catalyst Switches</h1>
 									<p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
-									<a href="#" class="btn-c">Ознакомиться с решением</a>
+									<a href="#" class="promo__btn-link">Ознакомиться с решением</a>
 								</div>
 							</div>
-							<div class="pic">
+							<div class="promo__pic">
 								<div class="col-1-of-2-xl">
 									<h1>Инновационные решения Cisco Catalyst Switches</h1>
 									<p>Постройте свою безграничную сеть с уникальным предложением безопасных и надежных решений</p>
-									<a href="#" class="btn-c">Ознакомиться с решением</a>
+									<a href="#" class="promo__btn-link">Ознакомиться с решением</a>
 								</div>
 							</div>
 						</div>
-						<div class="toggle">
-							<label for="1" class="btn-x">1</label>
-							<label for="2" class="btn-x">2</label>
-							<label for="3" class="btn-x">3</label>
-							<label for="4" class="btn-x">4</label>
-							<label for="5" class="btn-x">5</label>
+						<div class="promo__toggle">
+							<label for="1" class="promo__btn-x">1</label>
+							<label for="2" class="promo__btn-x">2</label>
+							<label for="3" class="promo__btn-x">3</label>
+							<label for="4" class="promo__btn-x">4</label>
+							<label for="5" class="promo__btn-x">5</label>
 						</div>
 					</div>
 				</div>
 				<div class="col-1-of-3-xl shares">
 					<h1>Акции</h1>
-					<div class="shares">
+					<div class="share">
 						<img src="images/share_1.jpg" alt="акция">
 						<p><a href="#">Коробочные продукты "Лаборатории Касперского"</a> без увеличения стоимости</p>
 					</div>
-					<div class="shares">
+					<div class="share">
 						<img src="images/share_2.jpg" alt="акция">
 						<p><a href="#">Специальные цены на ABBYY FineReader</a> 10 Professional Edition!</p>
 					</div>
-					<div class="shares">
+					<div class="share">
 						<img src="images/share_3.jpg" alt="акция">
 						<p>
 							<a href="#">Скидка до 80% на программные продукты</a> Microsoft для академических пользователей и научных учреждений
@@ -452,17 +452,19 @@
 					<input class="special-offers__inp undisplay" id="so-3" type="radio" name="special-offers__toggle" />
 					<input class="special-offers__inp undisplay" id="so-4" type="radio" name="special-offers__toggle" />
 					<div class="special-offers__toggle">
-						<label for="so-1" class="btn-r">Спецпредложения</label>
-						<label for="so-2" class="btn-r">Бестселлеры</label>
-						<label for="so-3" class="btn-r">Новинки</label>
-						<label for="so-4" class="btn-r">Скоро в продаже</label>
+						<div class="special-offers__toggle__container">
+							<label for="so-1" class="special-offers__toggle__btn">Спецпредложения</label>
+							<label for="so-2" class="special-offers__toggle__btn">Бестселлеры</label>
+							<label for="so-3" class="special-offers__toggle__btn">Новинки</label>
+							<label for="so-4" class="special-offers__toggle__btn">Скоро в продаже</label>
+						</div>
 					</div>
 					<div class="special-offers__container">
 						<div class="special-offers__viewport" id="specialOffers">
 							<a href="" class="positioning">Все спецпредложения &#x279E;</a>
 							<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
 							<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
-							<div class="slide-section">
+							<div class="slide-section row">
 								<div class="special-offers__pic super-gift">
 									<img src="images/product_1.jpg" alt="" class="img-h">
 									<p>+ в подарок мышка и стильная сумка</p>
@@ -549,7 +551,7 @@
 							<a href="" class="positioning">Все бестселлеры &#x279E;</a>
 							<span class="arrow-fefe arrow-fefe-l" id="bestsellersBtnLeft"></span>
 							<span class="arrow-fefe arrow-fefe-r-a" id="bestsellersBtnRight"></span>
-							<div class="slide-section">
+							<div class="slide-section row">
 								<div class="special-offers__pic super-gift">
 									<img src="images/product_1.jpg" alt="" class="img-h">
 									<p>+ в подарок мышка и стильная сумка</p>
@@ -636,7 +638,7 @@
 							<a href="" class="positioning">Все новинки &#x279E;</a>
 							<span class="arrow-fefe arrow-fefe-l" id="latestsBtnLeft"></span>
 							<span class="arrow-fefe arrow-fefe-r-a" id="latestsBtnRight"></span>
-							<div class="slide-section">
+							<div class="slide-section row">
 								<div class="special-offers__pic super-gift">
 									<img src="images/product_1.jpg" alt="" class="img-h">
 									<p>+ в подарок мышка и стильная сумка</p>
@@ -723,7 +725,7 @@
 							<a href="" class="positioning">Все скоро в продаже &#x279E;</a>
 							<span class="arrow-fefe arrow-fefe-l" id="soonestsBtnLeft"></span>
 							<span class="arrow-fefe arrow-fefe-r-a" id="soonestsBtnRight"></span>
-							<div class="slide-section">
+							<div class="slide-section row">
 								<div class="special-offers__pic super-gift">
 									<img src="images/product_1.jpg" alt="" class="img-h">
 									<p>+ в подарок мышка и стильная сумка</p>
@@ -1001,7 +1003,7 @@
 		</div>
 <!--footer section-->
 		<footer>
-			<p>&copy; 2003-2013, The LiveLinkShop</p>
+			<p class="footer__copyrights">&copy; 2003-2013, The LiveLinkShop</p>
 				<nav>
 					<ul>
 						<li><a href="#">О магазине</a></li>
@@ -1034,10 +1036,10 @@
 						</p>
 					</div>
 					<div class="col-1-of-4-xl">
-						<ul>
-							<li><span class="social-icon">@</span><a href="">Мы в фейсбуке</a></li>
-							<li><span class="social-icon">@</span><a href="">Наша страница вКонтакте</a></li>
-							<li><span class="social-icon">@</span><a href="">Наш Твитер</a></li>
+						<ul class="footer__social">
+							<li><span class="social-icon social-icon__fb"></span><a href="" class="social-text">Мы в фейсбуке</a></li>
+							<li><span class="social-icon social-icon__vk"></span><a href="" class="social-text">Наша страница вКонтакте</a></li>
+							<li><span class="social-icon social-icon__tw"></span><a href="" class="social-text">Наш Твитер</a></li>
 						</ul>
 					</div>
 					<div class="col-1-of-4-xl">
