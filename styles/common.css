@@ -31,7 +31,10 @@ img {
 .center {
 	text-align: center;
 }
-
+.a-dtd {
+	text-decoration: none;
+	border-bottom: 1px dashed #316998;
+}
 nav {
 
 }

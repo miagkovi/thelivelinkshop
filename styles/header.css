@@ -1,27 +1,25 @@
 header {
+	margin-top: 15px;
+	background: -webkit-linear-gradient(bottom, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
 	background: linear-gradient(to top, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
 }
-
-header nav ul li a {
-
+header nav ul li {
+	margin: 0 5px;
 }
-
+header nav {
+	margin: 20px 0;
+}
 .search-form {
 	width: 300px;
 	height: 22px;
 	padding: 1px;
 	margin-top: 15px;
-	-moz-transform: skew(-20deg);
-	-o-transform: skew(-20deg);
 	-webkit-transform: skew(-20deg);
 	transform: skew(-20deg);
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	border: 1px solid #c4c4c4;
 	position: relative;
 }
-
 .search-form__input {
 	width: 225px;
 	border: none;
@@ -29,14 +27,10 @@ header nav ul li a {
 	position: absolute;
 	background-color: transparent;
 }
-
 .search-form__button {
-	background: silver;
 	width: 60px;
 	height: 22px;
 	display: inline-block;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	position: absolute;
 	right: 0.4%;
@@ -45,17 +39,50 @@ header nav ul li a {
 	text-align: center;
 	background-image: -moz-linear-gradient(top, #ffffff, #c4c4c4);
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c4c4c4));
-	background-color: #c4c4c4;
 }
-
-
-
+.support-button {
+	position: relative;
+	width: 100px;
+	padding-top: 50px;
+	border: 1px solid #6cbe68;
+	border-radius: 5px;
+	background: linear-gradient(to top, #e1e1e1 0%, #ffffff 100%);
+}
+.support-button__image {
+	width: 100px;
+	position: absolute;
+	top: -15px;
+	right: -6px;
+}
+.support-button__point {
+	position: absolute;
+	right: 0;
+	top: 1px;
+	height: 10px;
+	width: 10px;
+	background: url(../images/sprite_icons_diff.png) no-repeat;
+	background-position: -60px 0;
+}
+.log-in {
+	width: 260px;
+	padding: 2px 0;
+}
+.log-in__icon {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(../images/sprite_icons_diff.png) no-repeat;
+	background-position: -89px 2px;
+}
+.log-in__link {
+}
 /**/
 .menu {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #186ca3; /*for old browsers*/
+	background: -webkit-linear-gradient(bottom, #13689e 0%, #044978 25%, #186ca3 100%);
 	background: linear-gradient(to top, #13689e 0%, #044978 25%, #186ca3 100%);
 	border-radius: 5px;
 	color: #ffffff;

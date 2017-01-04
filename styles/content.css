@@ -51,10 +51,11 @@
 	background-position: -425px 53px;
 }
 /**/
+.promo-and-shares {
+	margin: 20px 0;
+}
 .promo {
 	border: solid 10px #71a2c2;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	float: left;
 	position: relative;
@@ -74,9 +75,6 @@
 	display: inline-block;
 	width: 20px;
 	height: 22px;
-
-	-moz-border-radius: 0px 0px 6px 6px;
-	-webkit-border-radius: 0px 0px 6px 6px;
 	border-radius: 0px 0px 4px 4px;
 
 	background: #71a2c2;
@@ -102,27 +100,31 @@
 	display: block;
 	float: left;
 	background: #FFFFFF url("../images/slide_big.jpg") no-repeat;
-	-webkit-background-size: cover;
 	background-size: cover;
 }
 .inp:nth-child(1):checked ~ .viewPort {
 	margin-left: 0;
+	-webkit-transition: 1s;
 	transition: 1s;
 }
 .inp:nth-child(2):checked ~ .viewPort {
 	margin-left: -100%;
+	-webkit-transition: 1s;
 	transition: 1s;
 }
 .inp:nth-child(3):checked ~ .viewPort {
 	margin-left: -200%;
+	-webkit-transition: 1s;
 	transition: 1s;
 }
 .inp:nth-child(4):checked ~ .viewPort {
 	margin-left: -300%;
+	-webkit-transition: 1s;
 	transition: 1s;
 }
 .inp:nth-child(5):checked ~ .viewPort {
 	margin-left: -400%;
+	-webkit-transition: 1s;
 	transition: 1s;
 }
 
@@ -175,6 +177,7 @@
 .special-offers__viewport {
 	width: 200%;
 	display: none;
+	-webkit-transition: margin-left .666s;
 	transition: margin-left .666s;
 }
 .special-offers__pic {
@@ -193,6 +196,33 @@
 .special-offers__inp:nth-child(4):checked ~ .special-offers__container .special-offers__viewport:nth-child(4) {
 	display: block;
 }
+
+.special-offers__buy-button {
+	-webkit-transform: skew(-20deg);
+	transform: skew(-20deg);
+	padding: 0 5px;
+	background: -webkit-linear-gradient(bottom, #ffffff 0%, #e1e1e1 40%, #ffffff 100%);
+	background: linear-gradient(to top, #ffffff 0%, #e1e1e1 40%, #ffffff 100%);
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+}
+.special-offers__buy-button__price {
+	-webkit-transform: skew(20deg);
+	transform: skew(20deg);
+	float: left;
+	font-style: italic;
+	margin: 3px 0
+}
+.special-offers__buy-button__icon {
+	display: inline-block;
+	-webkit-transform: skew(20deg);
+	transform: skew(20deg);
+	width: 25px;
+	height: 20px;
+	background: url(../images/sprite_icons_diff.png) no-repeat;
+	background-position: -35px 2px;
+}
+
 .arrow-fefe {
 	position: absolute;
 	background: url(../images/sprite_arrows.png) no-repeat;
@@ -236,7 +266,6 @@
 	list-style-type: none;
 }
 /*******************************articles-and-reviews section*******************************/
-
 
 
 
