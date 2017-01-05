@@ -1,6 +1,8 @@
 .img-brand {
 	height: 50px;
+	width: 130px;
 	background-image: url(../images/sprite_brand.png);
+
 }
 .img-brand1 {
 	background-position: 0px 0px;
@@ -78,7 +80,6 @@
 	width: 20px;
 	height: 22px;
 	border-radius: 0px 0px 4px 4px;
-
 	background: #71a2c2;
 	color: white;
 	cursor: pointer;
@@ -110,7 +111,6 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20c0cd', endColorstr='#5e0477',GradientType=0 ); /* ie6-9 */
 }
 .promo__btn-link:hover {
-
 }
 .promo__inp {
 	display: none;
@@ -119,8 +119,6 @@
 	width: 20%;
 	display: block;
 	float: left;
-	background: #FFFFFF url("../images/slide_big.jpg") no-repeat;
-	background-size: cover;
 }
 .promo__inp:nth-child(1):checked ~ .promo__viewPort,
 .promo__inp:nth-child(2):checked ~ .promo__viewPort,
@@ -236,13 +234,11 @@
 
 }
 .special-offers__viewport {
-	width: 200%;
 	display: none;
 	-webkit-transition: margin-left .666s;
 	transition: margin-left .666s;
 }
 .special-offers__pic {
-	width: 10%;
 	float: left;
 	padding: 30px 30px 10px 30px;
 }
@@ -324,6 +320,92 @@
 	list-style-type: none;
 }
 /*******************************articles-and-reviews section*******************************/
+
+.articles-and-reviews {
+	margin: 20px 0;
+}
+.articles-and-reviews article {
+	margin: 10px 0;
+}
+.articles__image {
+
+}
+.articles__heading {
+
+}
+.articles__text {
+
+}
+/******************************************media******************************************/
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 600px) {
+	.special-offers__viewport {
+		width: 500%;
+	}
+	.special-offers__pic {
+		width: 10%;
+	}
+	.promo__pic {
+		background: #FFFFFF url("../images/slide_small.jpg") no-repeat;
+		background-size: cover;
+	}
+	.articles__image {
+		float: left;
+	}
+}
+
+@media (min-width: 1000px) {
+	.special-offers__viewport {
+		width: 250%;
+	}
+	.special-offers__pic {
+		width: 10%;
+	}
+	.promo__pic {
+		background: #FFFFFF url("../images/slide_small.jpg") no-repeat;
+		background-size: cover;
+	}
+	.articles__image {
+		clear: both;
+		display: inline-block;
+	}
+	.articles__heading {
+		display: inline-block;
+	}
+	.articles__text {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 1200px) {
+	.special-offers__viewport {
+		width: 200%;
+	}
+	.special-offers__pic {
+		width: 10%;
+	}
+	.promo__pic {
+		background: #FFFFFF url("../images/slide_big.jpg") no-repeat;
+		background-size: cover;
+	}
+	.articles__image {
+		clear: both;
+		display: inline-block;
+	}
+	.articles__heading {
+		display: inline-block;
+	}
+	.articles__text {
+		display: inline-block;
+	}
+}
+
+
+
+
 
 
 
