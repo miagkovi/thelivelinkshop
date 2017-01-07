@@ -41,12 +41,12 @@
 	soonests.style.marginLeft = "0";
 
 var app = {
-	increment: 20,
+	increment: 230,
 	margin: 0,
 	right: function() {
-		if (this.margin > -100) {
+		if (this.margin > -2300/2) {
 			this.margin = this.margin - this.increment;
-			specialOffers.style.marginLeft = this.margin + "%";
+			specialOffers.style.marginLeft = this.margin + "px";
 			// if (this.margin === -100) {
 			// 	specialOffersBtnRight.classList.remove("arrow-fefe-r-a");
 			// 	specialOffersBtnRight.classList.add("arrow-fefe-r");
@@ -58,7 +58,7 @@ var app = {
 	left: function() {
 		if (this.margin < 0) {
 			this.margin = this.margin + this.increment;
-			specialOffers.style.marginLeft = this.margin + "%";
+			specialOffers.style.marginLeft = this.margin + "px";
 			// if (tis.margin !== 0) {
 			// 	specialOffersBtnLeft.classList.remove("arrow-fefe-l");
 			// 	specialOffersBtnLeft.classList.add("arrow-fefe-l-a");

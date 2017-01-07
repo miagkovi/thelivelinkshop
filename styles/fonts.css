@@ -1,0 +1,57 @@
+/*
+font-family: 'Didact Gothic', sans-serif;
+font-family: Arial, sans-serif;
+*/
+/*
+30px / 16px = 1.875em;
+18px / 16px = 1.125em;
+17px / 16px = 1.0625em;
+16px / 16px = 1em;
+15px / 16px = 0.9375em;
+13px / 16px = 0.8125em;
+*/
+/********************************common********************************/
+body {
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+}
+/********************************header section********************************/
+header nav ul li a {
+	color: #105a8f;
+	font-size: 0.8125em;
+}
+/********************************main-menu section********************************/
+.menu .dropdown__header {
+	color: #ffffff;
+	font-size: 0.9375em;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #000000;
+}
+.menu .dropdown__header:hover {
+	text-shadow: none;
+}
+/********************************content section********************************/
+.promo .promo__pic__heading,
+.promo .promo__pic__text,
+.promo .promo__btn-link {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: 400;
+}
+.promo .promo__pic__heading {
+	font-size: 1.875em;
+	color: #6640c7;
+}
+.promo .promo__pic__text {
+	font-size: 1.0625em;
+	color: #333333;
+}
+.promo .promo__btn-link {
+	font-size: 1.125em;
+	color: #ffffff;
+}
+
+/********************************footer section********************************/
+footer nav ul li a {
+	color: #105a8f;
+	font-size: 0.8125em;
+}

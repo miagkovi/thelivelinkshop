@@ -1,0 +1,100 @@
+/***************************************menu***************************************/
+.menu {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #186ca3; /*for old browsers*/
+	background: -webkit-linear-gradient(bottom, #13689e 0%, #044978 25%, #186ca3 100%);
+	background: linear-gradient(to top, #13689e 0%, #044978 25%, #186ca3 100%);
+	border-radius: 8px;
+	color: #ffffff;
+	padding: 0 4px;
+	border-top: 3px groove #5e9bc2;
+	border-bottom: 3px groove #5e9bc2;
+}
+.dropdown {
+	width: 16.6666667%;
+	display: inline-block;
+	position: relative;
+}
+.dropdown__header {
+	color: inherit;
+	padding: 15px 0;
+	padding-right: 25%;
+	padding-left: 15px;
+	display: block;
+	text-decoration: none;
+	background: url("../images/arrow_menu.png") no-repeat;
+	background-position: 160px 25px;
+	position: relative;
+}
+.dropdown:hover .dropdown__header{
+	color: #105a8f;
+	text-decoration: underline;
+	box-shadow: 0px 7px 0px 0px #ffffff, 0px 0px 0px 7px #71a2c2;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	z-index: 99;
+}
+.fulldrop,
+.fulldrop-right {
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top: 66px;
+	width: 400%;
+	background-color: #ffffff;
+	text-align: left;
+	z-index: 66;
+	overflow: hidden;
+	border: solid 7px #71a2c2; 
+	border-radius: 7px;
+}
+.fulldrop {
+	left: -7px;
+}
+.fulldrop-right {
+	right: -7px;
+}
+.dropdown:hover {
+	background-color: #ffffff;
+}
+.dropdown:hover .fulldrop,
+.dropdown:hover .fulldrop-right {
+	opacity: 1;
+	visibility: visible;
+}
+.column {
+	width: 25%;
+	display: block;
+	float: left;
+	color: #ffffff;
+}
+.column ul {
+	padding: 0;
+	margin: 0;
+}
+.column ul li {
+	list-style: none;
+}
+
+/**************************************media**************************************/
+
+@media (max-width: 1199px) {
+	.dropdown__header {
+		background-position: 140px 25px;
+	}
+}
+@media (max-width: 999px) {
+	.dropdown {
+		display: none;
+	}
+	.menu .selection select option[value="01"]:checked ~ .menu .dropdown .fulldrop{
+		display: block;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@media (max-width: 599px) {
+
+}
