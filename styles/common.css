@@ -42,15 +42,43 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-transform: skew(-20deg);
 	transform: skew(-20deg);
 }
-.line-through {
-	text-decoration: line-through;
-	color: #888888;
+.skew-button {
+	border: 1px solid #e4e4e4;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 3px 6px;
+	background: linear-gradient(to top, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
+	cursor: pointer;
 }
-nav {
+
+.skew-button__text {
+	-webkit-transform: skew(20deg);
+	transform: skew(20deg);
+	display: inline-block;
+	text-decoration: underline;
+}
+.skew-button__arrow {
+	-webkit-transform: skew(20deg);
+	transform: skew(20deg);
+	display: inline-block;
+}
+.nav__help-icon {
+	height: 17px;
+	width: 20px;
+	background: url(../images/sprite_main.png) no-repeat;
+	background-position: -89px -79px;
+	display: inline-block;
 }
 nav ul li {
 	list-style-type: none;
 	display: inline;
+}
+.text-decor-none {
+	text-decoration: none;
+}
+.fr {
+	float: right;
 }
 /**********************************media**********************************/
 @media (min-width: 1200px) {

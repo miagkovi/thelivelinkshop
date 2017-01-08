@@ -69,8 +69,8 @@
 				"super_class"		:	"super-gift",
 				"red_text"			:	"+ в подарок мышка и стильная сумка",
 				"old_price"			:	"",
-				"price"				:	6257,
-				"usd_price"			:	756,
+				"price"				:	"6 257",
+				"usd_price"			:	"756",
 				"gift_image_src"	:	["images/gift_1.jpg", "images/gift_2.jpg"]
 			},
 			{
@@ -83,9 +83,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-price",
 				"red_text"			:	"Уникальное снижение цены на винчестер 200 GB!",
-				"old_price"			:	754,
-				"price"				:	599,
-				"usd_price"			:	86,
+				"old_price"			:	"754",
+				"price"				:	"599",
+				"usd_price"			:	"86",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -99,8 +99,8 @@
 				"super_class"		:	"super-discount",
 				"red_text"			:	"При покупке 5 камер и более - скидка 10%",
 				"old_price"			:	"",
-				"price"				:	1599,
-				"usd_price"			:	206,
+				"price"				:	"1 599",
+				"usd_price"			:	"206",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -113,9 +113,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-price",
 				"red_text"			:	"По европейской цене!",
-				"old_price"			:	24754,
-				"price"				:	23399,
-				"usd_price"			:	3049,
+				"old_price"			:	"24 754",
+				"price"				:	"23 399",
+				"usd_price"			:	"3 049",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -128,9 +128,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-discount",
 				"red_text"			:	"Скидка 25%",
-				"old_price"			:	1754,
-				"price"				:	1434,
-				"usd_price"			:	246,
+				"old_price"			:	"1 754",
+				"price"				:	"1 434",
+				"usd_price"			:	"246",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -143,9 +143,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-gift",
 				"red_text"			:	"По европейской цене!",
-				"old_price"			:	7052,
-				"price"				:	6257,
-				"usd_price"			:	756,
+				"old_price"			:	"7 052",
+				"price"				:	"6 257",
+				"usd_price"			:	"756",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -158,9 +158,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-price",
 				"red_text"			:	"Уникальное снижение цены на винчестер 200 GB!",
-				"old_price"			:	754,
-				"price"				:	599,
-				"usd_price"			:	86,
+				"old_price"			:	"754",
+				"price"				:	"599",
+				"usd_price"			:	"86",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -173,9 +173,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-discount",
 				"red_text"			:	"При покупке 5 камер и более - скидка 10%",
-				"old_price"			:	1754,
-				"price"				:	1599,
-				"usd_price"			:	206,
+				"old_price"			:	"1 754",
+				"price"				:	"1 599",
+				"usd_price"			:	"206",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -188,9 +188,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-price",
 				"red_text"			:	"По европейской цене!",
-				"old_price"			:	24754,
-				"price"				:	23399,
-				"usd_price"			:	3049,
+				"old_price"			:	"24 754",
+				"price"				:	"23 399",
+				"usd_price"			:	"3 049",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -203,9 +203,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"super-discount",
 				"red_text"			:	"Скидка 25%",
-				"old_price"			:	1754,
-				"price"				:	1434,
-				"usd_price"			:	246,
+				"old_price"			:	"1 754",
+				"price"				:	"1 434",
+				"usd_price"			:	"246",
 				"gift_image_src"	:	["", ""]
 			}
 		],
@@ -221,8 +221,8 @@
 				"super_class"		:	"",
 				"red_text"			:	"",
 				"old_price"			:	"",
-				"price"				:	6257,
-				"usd_price"			:	756,
+				"price"				:	"6 257",
+				"usd_price"			:	"756",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -235,9 +235,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	754,
-				"price"				:	599,
-				"usd_price"			:	86,
+				"old_price"			:	"754",
+				"price"				:	"599",
+				"usd_price"			:	"86",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -251,8 +251,8 @@
 				"super_class"		:	"",
 				"red_text"			:	"",
 				"old_price"			:	"",
-				"price"				:	1599,
-				"usd_price"			:	206,
+				"price"				:	"1 599",
+				"usd_price"			:	"206",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -265,9 +265,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	24754,
-				"price"				:	23399,
-				"usd_price"			:	3049,
+				"old_price"			:	"24 754",
+				"price"				:	"23 399",
+				"usd_price"			:	"3 049",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -280,9 +280,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	1754,
-				"price"				:	1434,
-				"usd_price"			:	246,
+				"old_price"			:	"1 754",
+				"price"				:	"1 434",
+				"usd_price"			:	"246",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -295,9 +295,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	7052,
-				"price"				:	6257,
-				"usd_price"			:	756,
+				"old_price"			:	"7 052",
+				"price"				:	"6 257",
+				"usd_price"			:	"756",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -310,9 +310,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	754,
-				"price"				:	599,
-				"usd_price"			:	86,
+				"old_price"			:	"754",
+				"price"				:	"599",
+				"usd_price"			:	"86",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -325,9 +325,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	1754,
-				"price"				:	1599,
-				"usd_price"			:	206,
+				"old_price"			:	"1 754",
+				"price"				:	"1 599",
+				"usd_price"			:	"206",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -340,9 +340,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	24754,
-				"price"				:	23399,
-				"usd_price"			:	3049,
+				"old_price"			:	"24 754",
+				"price"				:	"23 399",
+				"usd_price"			:	"3 049",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -355,9 +355,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	1754,
-				"price"				:	1434,
-				"usd_price"			:	246,
+				"old_price"			:	"1 754",
+				"price"				:	"1 434",
+				"usd_price"			:	"246",
 				"gift_image_src"	:	["", ""]
 			}
 		],
@@ -373,8 +373,8 @@
 				"super_class"		:	"",
 				"red_text"			:	"",
 				"old_price"			:	"",
-				"price"				:	6257,
-				"usd_price"			:	756,
+				"price"				:	"6 257",
+				"usd_price"			:	"756",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -387,9 +387,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	754,
-				"price"				:	599,
-				"usd_price"			:	86,
+				"old_price"			:	"754",
+				"price"				:	"599",
+				"usd_price"			:	"86",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -403,8 +403,8 @@
 				"super_class"		:	"",
 				"red_text"			:	"",
 				"old_price"			:	"",
-				"price"				:	1599,
-				"usd_price"			:	206,
+				"price"				:	"1 599",
+				"usd_price"			:	"206",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -417,9 +417,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	24754,
-				"price"				:	23399,
-				"usd_price"			:	3049,
+				"old_price"			:	"24 754",
+				"price"				:	"23 399",
+				"usd_price"			:	"3 049",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -432,9 +432,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	1754,
-				"price"				:	1434,
-				"usd_price"			:	246,
+				"old_price"			:	"1 754",
+				"price"				:	"1 434",
+				"usd_price"			:	"246",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -447,9 +447,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	7052,
-				"price"				:	6257,
-				"usd_price"			:	756,
+				"old_price"			:	"7 052",
+				"price"				:	"6 257",
+				"usd_price"			:	"756",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -462,9 +462,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	754,
-				"price"				:	599,
-				"usd_price"			:	86,
+				"old_price"			:	"754",
+				"price"				:	"599",
+				"usd_price"			:	"86",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -477,9 +477,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	1754,
-				"price"				:	1599,
-				"usd_price"			:	206,
+				"old_price"			:	"1 754",
+				"price"				:	"1 599",
+				"usd_price"			:	"206",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -492,9 +492,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	24754,
-				"price"				:	23399,
-				"usd_price"			:	3049,
+				"old_price"			:	"24 754",
+				"price"				:	"23 399",
+				"usd_price"			:	"3 049",
 				"gift_image_src"	:	["", ""]
 			},
 			{
@@ -507,9 +507,9 @@
 				"bool_gift"			:	false,
 				"super_class"		:	"",
 				"red_text"			:	"",
-				"old_price"			:	1754,
-				"price"				:	1434,
-				"usd_price"			:	246,
+				"old_price"			:	"1 754",
+				"price"				:	"1 434",
+				"usd_price"			:	"246",
 				"gift_image_src"	:	["", ""]
 			}
 		],

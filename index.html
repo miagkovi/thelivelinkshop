@@ -46,14 +46,14 @@
 
 				<div class="row">
 
-					<div class="col-1-of-6-xl col-1-of-5-lg col-1-of-4-md">
+					<div class="col-1-of-6-xl col-1-of-5-lg col-1-of-4-md header__logo">
 						<img src="images/logo.jpg" alt="thelivelinkshop logo">
 					</div>
 
-					<div class="col-2-of-6-xl col-2-of-5-lg col-2-of-4-md">
+					<div class="col-2-of-6-xl col-2-of-5-lg col-2-of-4-md phone-and-search">
 						<p>
-							<span>(044)555-00-00</span>
-							<a href="#" class="a-dtd"><i>Обратный звонок</i></a>
+							<span class="header__phone-number">(044)<b>555-00-00</b></span>
+							<a href="#" class="a-dtd header__callback">Обратный звонок</a>
 						</p>
 						<form action="" class="search-form skew">
 							<input type="search" placeholder="Поиск" class="search-form__input">
@@ -69,28 +69,28 @@
 						</button>
 					</div>
 
-					<div class="col-1-of-6-xl-right col-1-of-5-lg col-1-of-4-md">
+					<div class="col-2-of-6-xl col-1-of-5-lg col-1-of-4-md log-in-and-cart">
 						<p class="log-in">
 							<span class="log-in__icon"></span>
-							<a href="#" class="log-in__link a-dtd">Вход<span class="log-in__link__dis"> для постоянных клиентов</span></a>
+							<a href="#" class="log-in__link a-dtd"><span class="log-in__link__not-dis">Вход</span><span class="log-in__link__dis"> для постоянных клиентов</span></a>
 						</p>
-						<button>
-							<img src="images/cart.png" alt="">
-							<a href="#"><i>Корзина</i></a>
-							<img src="images/arrow_menu.png" alt="">
-						</button>
+						<div class="cart__button">
+							<span class="cart__button__cart-img"></span>
+							<span class="cart__button__text">Корзина</span>
+							<span class="cart__button__arrow-img"></span>
+						</div>
 					</div>
 
 				</div>
 
-				<nav class="display-xl display-lg undisplay-md">
+				<nav class="display-xl display-lg undisplay-md header__nav">
 					<ul>
 						<li><a href="#">О магазине</a></li>
 						<li><a href="#">Адреса и телефоны</a></li>
 						<li><a href="#">Акции</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Статьи и обзоры</a></li>
-						<li><img src="images/question_frame.png" alt="help"><a href="#">Помощь</a></li>
+						<li><span class="nav__help-icon"></span><a href="#">Помощь</a></li>
 						<li><a href="#">Доставка и оплата</a></li>
 						<li><a href="#">Гарантия и сервис</a></li>
 					</ul>
@@ -105,13 +105,13 @@
 		<div class="main-menu">
 			<div class="container">
 
-				<ul class="menu">
+				<ul class="menu row">
 
 					<li class="dropdown">
 						<a href="#" class="dropdown__header">ПК и Серверы Prime PC</a>
-						<div class="fulldrop">
-							<div class="column">
-								<h3><a href="">Компьютеры</a></h3>
+						<div class="fulldrop" id="fulldrop_01">
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Компьютеры</a></h3>
 								<ul>
 									<li><a href="#">Компьютеры</a></li>
 									<li><a href="#">Серверы</a></li>
@@ -123,8 +123,8 @@
 									<li><a href="#">Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Ноутбуки и планшеты</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Ноутбуки и планшеты</a></h3>
 								<ul>
 									<li><a href="#">Планшеты</a></li>
 									<li><a href="#">Ноутбуки</a></li>
@@ -132,8 +132,8 @@
 									<li><a href="#">Аксессуары для ноутбуков</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Оргтехника</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Оргтехника</a></h3>
 								<ul>
 									<li><a href="#">Принтеры</a></li>
 									<li><a href="#">МФУ</a></li>
@@ -147,8 +147,8 @@
 									<li><a href="#">Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Мониторы и ЖК-панели</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Мониторы и ЖК-панели</a></h3>
 								<ul>
 									<li><a href="#">Мониторы</a></li>
 									<li><a href="#">Сетевых мониторы</a></li>
@@ -158,9 +158,9 @@
 						</div>
 					</li><li class="dropdown">
 						<a href="" class="dropdown__header">Компьютеры и периферия</a>
-						<div class="fulldrop">
-							<div class="column">
-								<h3><a href="">Компьютеры</a></h3>
+						<div class="fulldrop" id="fulldrop_02">
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Компьютеры</a></h3>
 								<ul>
 									<li><a href="#">2Компьютеры</a></li>
 									<li><a href="#">2Серверы</a></li>
@@ -172,8 +172,8 @@
 									<li><a href="#">2Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Ноутбуки и планшеты</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Ноутбуки и планшеты</a></h3>
 								<ul>
 									<li><a href="#">2Планшеты</a></li>
 									<li><a href="#">2Ноутбуки</a></li>
@@ -181,8 +181,8 @@
 									<li><a href="#">2Аксессуары для ноутбуков</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Оргтехника</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Оргтехника</a></h3>
 								<ul>
 									<li><a href="#">2Принтеры</a></li>
 									<li><a href="#">2МФУ</a></li>
@@ -196,8 +196,8 @@
 									<li><a href="#">2Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Мониторы и ЖК-панели</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Мониторы и ЖК-панели</a></h3>
 								<ul>
 									<li><a href="#">2Мониторы</a></li>
 									<li><a href="#">2Сетевых мониторы</a></li>
@@ -207,9 +207,9 @@
 						</div>
 					</li><li class="dropdown">
 						<a href="" class="dropdown__header">Программное обеспечение</a>
-						<div class="fulldrop">
-							<div class="column">
-								<h3><a href="">Компьютеры</a></h3>
+						<div class="fulldrop" id="fulldrop_03">
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Компьютеры</a></h3>
 								<ul>
 									<li><a href="#">3Компьютеры</a></li>
 									<li><a href="#">3Серверы</a></li>
@@ -221,8 +221,8 @@
 									<li><a href="#">3Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Ноутбуки и планшеты</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Ноутбуки и планшеты</a></h3>
 								<ul>
 									<li><a href="#">3Планшеты</a></li>
 									<li><a href="#">3Ноутбуки</a></li>
@@ -230,8 +230,8 @@
 									<li><a href="#">3Аксессуары для ноутбуков</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Оргтехника</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Оргтехника</a></h3>
 								<ul>
 									<li><a href="#">3Принтеры</a></li>
 									<li><a href="#">3МФУ</a></li>
@@ -245,8 +245,8 @@
 									<li><a href="#">3Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Мониторы и ЖК-панели</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Мониторы и ЖК-панели</a></h3>
 								<ul>
 									<li><a href="#">3Мониторы</a></li>
 									<li><a href="#">3Сетевых мониторы</a></li>
@@ -256,9 +256,9 @@
 						</div>
 					</li><li class="dropdown">
 						<a href="" class="dropdown__header">Сети и теле- коммуникации</a>
-						<div class="fulldrop-right">
-							<div class="column">
-								<h3><a href="">Компьютеры</a></h3>
+						<div class="fulldrop-right" id="fulldrop_04">
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Компьютеры</a></h3>
 								<ul>
 									<li><a href="#">4Компьютеры</a></li>
 									<li><a href="#">4Серверы</a></li>
@@ -270,8 +270,8 @@
 									<li><a href="#">4Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Ноутбуки и планшеты</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Ноутбуки и планшеты</a></h3>
 								<ul>
 									<li><a href="#">4Планшеты</a></li>
 									<li><a href="#">4Ноутбуки</a></li>
@@ -279,8 +279,8 @@
 									<li><a href="#">4Аксессуары для ноутбуков</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Оргтехника</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Оргтехника</a></h3>
 								<ul>
 									<li><a href="#">4Принтеры</a></li>
 									<li><a href="#">4МФУ</a></li>
@@ -294,8 +294,8 @@
 									<li><a href="#">4Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Мониторы и ЖК-панели</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Мониторы и ЖК-панели</a></h3>
 								<ul>
 									<li><a href="#">4Мониторы</a></li>
 									<li><a href="#">4Сетевых мониторы</a></li>
@@ -305,9 +305,9 @@
 						</div>
 					</li><li class="dropdown">
 						<a href="" class="dropdown__header">Системы безопасности</a>
-						<div class="fulldrop-right">
-							<div class="column">
-								<h3><a href="">Компьютеры</a></h3>
+						<div class="fulldrop-right" id="fulldrop_05">
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Компьютеры</a></h3>
 								<ul>
 									<li><a href="#">5Компьютеры</a></li>
 									<li><a href="#">5Серверы</a></li>
@@ -319,8 +319,8 @@
 									<li><a href="#">5Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Ноутбуки и планшеты</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Ноутбуки и планшеты</a></h3>
 								<ul>
 									<li><a href="#">5Планшеты</a></li>
 									<li><a href="#">5Ноутбуки</a></li>
@@ -328,8 +328,8 @@
 									<li><a href="#">5Аксессуары для ноутбуков</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Оргтехника</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Оргтехника</a></h3>
 								<ul>
 									<li><a href="#">5Принтеры</a></li>
 									<li><a href="#">5МФУ</a></li>
@@ -343,8 +343,8 @@
 									<li><a href="#">5Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Мониторы и ЖК-панели</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Мониторы и ЖК-панели</a></h3>
 								<ul>
 									<li><a href="#">5Мониторы</a></li>
 									<li><a href="#">5Сетевых мониторы</a></li>
@@ -354,9 +354,9 @@
 						</div>
 					</li><li class="dropdown">
 						<a href="" class="dropdown__header">Бесперебойная работа</a>
-						<div class="fulldrop-right">
-							<div class="column">
-								<h3><a href="">Компьютеры</a></h3>
+						<div class="fulldrop-right" id="fulldrop_06">
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Компьютеры</a></h3>
 								<ul>
 									<li><a href="#">6Компьютеры</a></li>
 									<li><a href="#">6Серверы</a></li>
@@ -368,8 +368,8 @@
 									<li><a href="#">6Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Ноутбуки и планшеты</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Ноутбуки и планшеты</a></h3>
 								<ul>
 									<li><a href="#">6Планшеты</a></li>
 									<li><a href="#">6Ноутбуки</a></li>
@@ -377,8 +377,8 @@
 									<li><a href="#">6Аксессуары для ноутбуков</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Оргтехника</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Оргтехника</a></h3>
 								<ul>
 									<li><a href="#">6Принтеры</a></li>
 									<li><a href="#">6МФУ</a></li>
@@ -392,8 +392,8 @@
 									<li><a href="#">6Аксессуары</a></li>
 								</ul>
 							</div>
-							<div class="column">
-								<h3><a href="">Мониторы и ЖК-панели</a></h3>
+							<div class="fulldrop__column">
+								<h3 class="column__heading"><a href="">Мониторы и ЖК-панели</a></h3>
 								<ul>
 									<li><a href="#">6Мониторы</a></li>
 									<li><a href="#">6Сетевых мониторы</a></li>
@@ -404,7 +404,7 @@
 					</li>
 
 					<li class="undisplay-xl undisplay-lg display-md selection">
-						<select>
+						<select id="select">
 							<option selected value="01">ПК и Серверы Prime PC</option>
 							<option value="02">Компьютеры и периферия</option>
 							<option value="03">Программное обеспечение</option>
@@ -414,9 +414,7 @@
 						</select>
 					</li>
 					<li class="undisplay-xl undisplay-lg display-md">
-						<div class="menu-btn">
-							
-						</div>
+						<div class="menu__context-btn" id="contextButton"></div>
 					</li>
 
 				</ul>
@@ -462,7 +460,7 @@
 					</div>
 				</div>
 				<div class="col-1-of-3-xl col-1-of-3-lg col-1-of-1-md shares">
-					<h1>Акции</h1>
+					<h1 class="shares__heading">Акции</h1>
 					<div id="shares-mustache">
 						<script id="sharesTpl" type="text/template">
 							{{ #shares }}
@@ -473,7 +471,10 @@
 							{{ /shares }}
 						</script>
 					</div>
-					<a href="#" class="skew">Все акции &#x279E;</a>
+					<a href="#" class="skew skew-button">
+						<span class="skew-button__text">Все акции</span>
+						<span class="skew-button__arrow"> &#x279E;</span>
+					</a>
 				</div>
 			</div>
 
@@ -487,24 +488,36 @@
 					<input class="special-offers__inp undisplay" id="so-4" type="radio" name="special-offers__toggle" />
 					<div class="special-offers__toggle">
 						<div class="special-offers__toggle__container">
-							<label for="so-1" class="special-offers__toggle__btn">Спецпредложения</label>
-							<label for="so-2" class="special-offers__toggle__btn">Бестселлеры</label>
-							<label for="so-3" class="special-offers__toggle__btn">Новинки</label>
-							<label for="so-4" class="special-offers__toggle__btn">Скоро в продаже</label>
+							<span class="special-offers__toggle__btn">
+								<label for="so-1" >Спецпредложения</label>
+								<div class="special__context-btn" id="contextButton"></div>
+							</span>
+							<span class="special-offers__toggle__btn">
+								<label for="so-2">Бестселлеры</label>
+								<div class="special__context-btn" id="contextButton"></div>
+							</span>
+							<span class="special-offers__toggle__btn">
+								<label for="so-3">Новинки</label>
+								<div class="special__context-btn" id="contextButton"></div>
+							</span>
+							<span class="special-offers__toggle__btn">
+								<label for="so-4">Скоро в продаже</label>
+								<div class="special__context-btn" id="contextButton"></div>
+							</span>
 						</div>
 					</div>
 					<div class="special-offers__container">
 						<div class="special-offers__viewport" id="specialOffers">
-							<a href="" class="positioning skew">Все спецпредложения &#x279E;</a>
-<div class="special-offers__arrow-l-wrapper">
-	<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
-</div>
-<div class="special-offers__arrow-r-wrapper">
-	<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
-</div>
-							
-
-							
+							<a href="#" class="skew skew-button positioning">
+								<span class="skew-button__text">Все спецпредложения</span>
+								<span class="skew-button__arrow"> &#x279E;</span>
+							</a>
+							<div class="special-offers__arrow-l-wrapper">
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+							</div>
+							<div class="special-offers__arrow-r-wrapper">
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+							</div>
 
 							<div class="slide-section row" id="offers-mustache">
 
@@ -520,10 +533,10 @@
 											<a href="{{ a_href }}" class="special-offers__link">{{ a_text }}</a>
 											{{#bool_price}}
 												{{#bool_old_price}}
-													<p class="special-offers__old-price line-through">{{ old_price }}</p>
+													<p class="special-offers__old-price">{{ old_price }} грн.</p>
 												{{/bool_old_price}}
 												<button class="special-offers__buy-button">
-													<p class="special-offers__buy-button__price"><b>{{ price }}</b> грн.</p>
+													<p class="special-offers__buy-button__price">{{ price }} <b class="special-offers__buy-button__price__uah">грн.</b></p>
 													<span class="special-offers__buy-button__icon"></span>
 												</button>
 												<p class="special-offers__usd-price">{{ usd_price }}$</p>
@@ -544,9 +557,16 @@
 							</div>
 						</div>
 						<div class="special-offers__viewport" id="bestsellers">
-							<a href="" class="positioning skew">Все бестселлеры &#x279E;</a>
-							<span class="arrow-fefe arrow-fefe-l" id="bestsellersBtnLeft"></span>
-							<span class="arrow-fefe arrow-fefe-r-a" id="bestsellersBtnRight"></span>
+							<a href="#" class="skew skew-button positioning">
+								<span class="skew-button__text">Все бестселлеры</span>
+								<span class="skew-button__arrow"> &#x279E;</span>
+							</a>
+							<div class="special-offers__arrow-l-wrapper">
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+							</div>
+							<div class="special-offers__arrow-r-wrapper">
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+							</div>
 
 							<div class="slide-section row" id="bestsellers-mustache">
 
@@ -586,9 +606,16 @@
 							</div>
 						</div>
 						<div class="special-offers__viewport" id="latests">
-							<a href="" class="positioning skew">Все новинки &#x279E;</a>
-							<span class="arrow-fefe arrow-fefe-l" id="latestsBtnLeft"></span>
-							<span class="arrow-fefe arrow-fefe-r-a" id="latestsBtnRight"></span>
+							<a href="#" class="skew skew-button positioning">
+								<span class="skew-button__text">Все новинки</span>
+								<span class="skew-button__arrow"> &#x279E;</span>
+							</a>
+							<div class="special-offers__arrow-l-wrapper">
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+							</div>
+							<div class="special-offers__arrow-r-wrapper">
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+							</div>
 
 							<div class="slide-section row" id="latests-mustache">
 
@@ -628,9 +655,16 @@
 							</div>
 						</div>
 						<div class="special-offers__viewport" id="soonests">
-							<a href="" class="positioning skew">Все скоро в продаже &#x279E;</a>
-							<span class="arrow-fefe arrow-fefe-l" id="soonestsBtnLeft"></span>
-							<span class="arrow-fefe arrow-fefe-r-a" id="soonestsBtnRight"></span>
+							<a href="#" class="skew skew-button positioning">
+								<span class="skew-button__text">Все скоро в продаже</span>
+								<span class="skew-button__arrow"> &#x279E;</span>
+							</a>
+							<div class="special-offers__arrow-l-wrapper">
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+							</div>
+							<div class="special-offers__arrow-r-wrapper">
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+							</div>
 
 							<div class="slide-section row" id="soonests-mustache">
 
@@ -677,72 +711,75 @@
 
 			<div class="manufacturers">
 				<div class="manufacturers__logo">
-				<div class="row">
-				<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-					<h4>IT-решения и компьютерная техника ведущих мировых производителей</h4>
-				</div>
-				<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-					<a href="#" class="skew">Все производители &#x279E;</a>
-				</div>
-				</div>
-				<div class="row">
-					<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-1-md">
-						<div class="row">
-							<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-								<div class="row">
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand1"></div>
-										<div class="img-brand img-brand2"></div>
+					<div class="row manufacturers__logo__headings">
+						<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+							<h4 class="manufacturers__heading">IT-решения и компьютерная техника ведущих мировых производителей</h4>
+						</div>
+						<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+							<a href="#" class="skew skew-button fr">
+								<span class="skew-button__text">Все производители</span>
+								<span class="skew-button__arrow"> &#x279E;</span>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-1-md">
+							<div class="row">
+								<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+									<div class="row">
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand1"></div>
+											<div class="img-brand img-brand2"></div>
+										</div>
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand3"></div>
+											<div class="img-brand img-brand4"></div>
+										</div>
 									</div>
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand3"></div>
-										<div class="img-brand img-brand4"></div>
+								</div>
+								<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+									<div class="row">
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand5"></div>
+											<div class="img-brand img-brand6"></div>
+										</div>
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand7"></div>
+											<div class="img-brand img-brand8"></div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-								<div class="row">
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand5"></div>
-										<div class="img-brand img-brand6"></div>
+						</div>
+						<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-1-md">
+							<div class="row">
+								<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+									<div class="row">
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand9"></div>
+											<div class="img-brand img-brand10"></div>
+										</div>
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand11"></div>
+											<div class="img-brand img-brand12"></div>
+										</div>
 									</div>
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand7"></div>
-										<div class="img-brand img-brand8"></div>
+								</div>
+								<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+									<div class="row">
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand13"></div>
+											<div class="img-brand img-brand14"></div>
+										</div>
+										<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+											<div class="img-brand img-brand15"></div>
+											<div class="img-brand img-brand16"></div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-1-md">
-						<div class="row">
-							<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-								<div class="row">
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand9"></div>
-										<div class="img-brand img-brand10"></div>
-									</div>
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand11"></div>
-										<div class="img-brand img-brand12"></div>
-									</div>
-								</div>
-							</div>
-							<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-								<div class="row">
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand13"></div>
-										<div class="img-brand img-brand14"></div>
-									</div>
-									<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
-										<div class="img-brand img-brand15"></div>
-										<div class="img-brand img-brand16"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 				</div>
 				<div class="manufacturers__link">
 					<div class="row">
@@ -848,9 +885,16 @@
 
 	<!--articles-and-reviews-->
 
-		<div class="articles-and-reviews">
-			<h1>Статьи и обзоры</h1>
-			<a href="#" class="skew">Другие статьи и обзоры &#x279E;</a>
+		<div class="articles-and-reviews row">
+		<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+			<h1 class="articles-and-reviews__heading">Статьи и обзоры</h1>
+		</div>
+		<div class="col-1-of-2-xl col-1-of-2-lg col-1-of-2-md">
+			<a href="#" class="skew skew-button fr">
+				<span class="skew-button__text">Другие статьи и обзоры</span>
+				<span class="skew-button__arrow"> &#x279E;</span>
+			</a>
+		</div>
 			<div class="row" id="articles-mustache">
 				<script id="articlesTpl" type="text/template">
 					{{ #articles }}
@@ -871,33 +915,35 @@
 		<footer>
 			<div class="container">
 				<p class="footer__copyrights">&copy; 2003-2013, The LiveLinkShop</p>
-				<nav>
+				<nav class="footer__nav">
 					<ul>
 						<li><a href="#">О магазине</a></li>
 						<li><a href="#">Адреса и телефоны</a></li>
 						<li><a href="#">Акции</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Статьи и обзоры</a></li>
-						<li><img src="images/question_frame.png" alt="help"><a href="#">Помощь</a></li>
+						<li><span class="nav__help-icon"></span><a href="#">Помощь</a></li>
 						<li><a href="#">Доставка и оплата</a></li>
 						<li><a href="#">Гарантия и сервис</a></li>
 					</ul>
 				</nav>
 				<div class="row">
 					<div class="col-1-of-4-xl col-1-of-4-lg col-1-of-2-md">
-						<p>Украина, Киев, ул. Ленинаб 31</p>
-						<p>(044)<b>555-00-00</b></p>
-						<a href="#">Обратный звонок</a>
-						<a href="#" class="skew">Форма обратной связи</a>
-						<a href="#">Условия использования сайта</a>
+						<p class="footer__address">Украина, Киев, ул. Ленинаб 31</p>
+						<p class="footer__phone">(044)<b>555-00-00</b></p>
+						<a href="#" class="footer__callback a-dtd">Обратный звонок</a>
+						<a href="#" class="skew skew-button">
+							<span class="skew-button__text text-decor-none a-dtd">Форма обратной связи</span>
+						</a>
+						<a href="#" class="footer__act">Условия использования сайта</a>
 					</div>
 					<div class="col-1-of-4-xl col-1-of-4-lg col-1-of-2-md">
-						<p>
+						<p class="footer__working-hours">
 							<b>Время работы с 9:00 до 19:00</b><br/>
 							Суббота с 9:00 до 18:00<br/>
 							Воскресенье с 10:00 до 15:00
 						</p>
-						<p>
+						<p class="footer__pay">
 							Принимаем к оплате<br/>
 							<img src="images/visamaster.png" alt="visa, mastercard, webmoney">
 						</p>
@@ -918,10 +964,10 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-1-of-4-xl col-1-of-4-lg col-1-of-1-md">
-						<img src="images/owox.png" alt="OWOX">
-						<p>Интернет-магазин разработам и поддерживается <a href="#">в компании OWOX</a></p>
-						<small>2011</small>
+					<div class="col-1-of-4-xl col-1-of-4-lg col-1-of-1-md OWOX">
+						<img src="images/owox.png" alt="OWOX" class="OWOX__img">
+						<p class="OWOX__text">Интернет-магазин разработам и поддерживается <a href="http://www.owox.ua/">в компании OWOX</a></p>
+						<p class="OWOX__year">2011</p>
 					</div>
 				</div>
 			</div>
@@ -932,6 +978,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
 		<script src="scripts/mymustaches.js"></script>
+		<script src="scripts/main_menu.js"></script>
 		<script src="scripts/app.js"></script>
 
 	</body>

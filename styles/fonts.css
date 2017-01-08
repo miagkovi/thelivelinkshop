@@ -3,55 +3,228 @@ font-family: 'Didact Gothic', sans-serif;
 font-family: Arial, sans-serif;
 */
 /*
+34px / 16px = 2.125em;
 30px / 16px = 1.875em;
+25px / 16px = 1.5625em;
+24px / 16px = 1.5em;
+23px / 16px = 1.4375em;
+20px / 16px = 1.25em;
 18px / 16px = 1.125em;
 17px / 16px = 1.0625em;
 16px / 16px = 1em;
 15px / 16px = 0.9375em;
 13px / 16px = 0.8125em;
+11px / 16px = 0.6875em;
 */
 /********************************common********************************/
-body {
-	font-size: 1em;
-	font-family: Arial, sans-serif;
-}
+
+	body {
+		font-size: 1em;
+		font-family: Arial, sans-serif;
+	}
+
 /********************************header section********************************/
-header nav ul li a {
-	color: #105a8f;
-	font-size: 0.8125em;
-}
+
+	header nav ul li a {
+		/*color: #105a8f;*/
+		font-size: 0.8125em;
+	}
+	header .cart__button__text {
+		font-family: 'Arial Black';
+		font-size: 1.4375em;
+		font-style: italic;
+		text-decoration: underline;
+		color: #105a8f;
+	}
+	header .support-button b {
+		font-size: 0.8125em;
+	}
+	header .header__callback{
+		font-size: 0.8125em;
+		font-style: italic;
+	}
+	header .log-in__link__not-dis,
+	header .log-in__link__dis {
+		font-size: 0.8125em;
+		/*color: #105a8f;*/
+	}
+	header .header__phone-number {
+		font-size: 1.4375em;
+		font-style: italic;
+	}
+	header .header__phone-number b {
+		font-size: 1.4782em;
+	}
+
 /********************************main-menu section********************************/
-.menu .dropdown__header {
-	color: #ffffff;
-	font-size: 0.9375em;
-	font-weight: bold;
-	text-shadow: 0 1px 0 #000000;
-}
-.menu .dropdown__header:hover {
-	text-shadow: none;
-}
+
+	.menu .dropdown__header {
+		color: #ffffff;
+		font-size: 0.9375em;
+		font-weight: bold;
+	}
+	.column__heading {
+		color: #333333;
+		font-size: 0.9375em;
+		font-weight: bold;
+	}
+	.column__heading a {
+		color: #333333;
+		font-weight: bold;
+	}
+	.fulldrop__column ul li a {
+		font-size: 0.8125em;
+		color: #105a8f;
+	}
+
 /********************************content section********************************/
-.promo .promo__pic__heading,
-.promo .promo__pic__text,
-.promo .promo__btn-link {
-	font-family: 'Didact Gothic', sans-serif;
-	font-weight: 400;
-}
-.promo .promo__pic__heading {
-	font-size: 1.875em;
-	color: #6640c7;
-}
-.promo .promo__pic__text {
-	font-size: 1.0625em;
-	color: #333333;
-}
-.promo .promo__btn-link {
-	font-size: 1.125em;
-	color: #ffffff;
-}
+
+	/***************promo-and-shares section**************/
+
+		.promo__pic__heading,
+		.promo__pic__text,
+		.promo__btn-link {
+			font-family: 'Didact Gothic', sans-serif;
+			font-weight: 400;
+		}
+		.promo__pic__heading {
+			font-size: 1.875em;
+			color: #6640c7;
+		}
+		.promo__pic__text {
+			font-size: 1.0625em;
+			color: #333333;
+		}
+		.promo__btn-link {
+			font-size: 1.125em;
+			color: #ffffff;
+		}
+		.promo__btn-x {
+			font-size: 0.8125em;
+			font-weight: bold;
+		}
+		.shares__heading {
+			font-family: 'Arial Black';
+			font-size: 1.5625em;
+			font-style: italic;
+			color: #d10000;
+		}
+		.share__text {
+			font-size: 0.8125em;
+		}
+		.skew-button {
+			color: #105a8f;
+			font-weight: bold;
+			font-size: 0.9375em;
+		}
+
+	/***************special-offers section****************/
+		.special-offers__toggle__btn {
+			color: #105a8f;
+			font-family: 'Arial Black';
+			font-size: 1.125em;
+			font-style: italic;
+			letter-spacing: -0.01em;
+			border-bottom: 1px dashed #105a8f;
+		}
+		.special-offers__inp:nth-child(1):checked ~ .special-offers__toggle .special-offers__toggle__container .special-offers__toggle__btn:nth-child(1),
+		.special-offers__inp:nth-child(2):checked ~ .special-offers__toggle .special-offers__toggle__container .special-offers__toggle__btn:nth-child(2),
+		.special-offers__inp:nth-child(3):checked ~ .special-offers__toggle .special-offers__toggle__container .special-offers__toggle__btn:nth-child(3),
+		.special-offers__inp:nth-child(4):checked ~ .special-offers__toggle .special-offers__toggle__container .special-offers__toggle__btn:nth-child(4) {
+			color: #d10000;
+			font-family: 'Arial Black';
+			font-style: italic;
+			font-size: 1.25em;
+		}
+		.special-offers__red-text {
+			color: #d10000;
+			font-size: 0.8125em;
+		}
+		.special-offers__link {
+			font-size: 0.8125em;
+		}
+		.special-offers__old-price {
+			font-weight: bold;
+			text-decoration: line-through;
+			color: #999999;
+			font-size: 0.9375em;
+			letter-spacing: .05em;
+		}
+		.special-offers__buy-button__price {
+			font-family: 'Arial Black';
+			font-size: 1.125em;
+		}
+		.special-offers__buy-button__price__uah {
+			font-family: Arial;
+			font-size: 0.722em; /*13/18*/
+		}
+		.special-offers__usd-price {
+			font-size: 0.6875em;
+			color: #5c9559;
+		}
+	/***************manufacturers section*****************/
+
+		.manufacturers__heading {
+			font-size: 0.9375em;
+			font-style: italic;
+			font-weight: bold;
+		}
+		.manufacturers__link ul li a {
+			/*color: #105a8f;*/
+			font-size: 0.6875em;
+		}
+
+	/***************articles-and-reviews section***********/
+
+		.articles-and-reviews__heading {
+			font-family: 'Arial Black';
+			font-style: italic;
+			font-size: 1.25em;
+			color: #333333;
+		}
+		.articles__heading {
+			font-size: 0.9375em;
+			color: #6611cc;
+		}
+		.articles__text {
+			font-size: 0.8125em;
+		}
 
 /********************************footer section********************************/
-footer nav ul li a {
-	color: #105a8f;
-	font-size: 0.8125em;
-}
+
+	footer nav ul li a {
+		/*color: #105a8f;*/
+		font-size: 0.8125em;
+	}
+	.footer__copyrights {
+		font-size: 0.9375em;
+	}
+	footer .social-text {
+		/*color: #105a8f;*/
+		font-size: 0.8125em;
+	}
+	.footer__working-hours,
+	.footer__pay {
+		font-size: 0.8125em;
+	}
+	.footer__address {
+		font-size: 0.8125em;
+	}
+	.footer__callback {
+		font-size: 0.8125em;
+	}
+	.footer__phone {
+		font-size: 1.5em;
+	}
+	.footer__act {
+		color: #333333;
+		font-size: 0.8125em;
+	}
+	.OWOX__text {
+		color: #4e4e4e;
+		font-size: 0.6875em;
+	}
+	.OWOX__year {
+		color: #999999;
+		font-size: 0.6875em;
+	}

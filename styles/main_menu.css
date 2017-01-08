@@ -9,14 +9,36 @@
 	border-radius: 8px;
 	color: #ffffff;
 	padding: 0 4px;
-	border-top: 3px groove #5e9bc2;
-	border-bottom: 3px groove #5e9bc2;
+	border-top: 2px groove #5e9bc2;
+	border-bottom: 2px groove #5e9bc2;
+}
+.menu__context-btn {
+	margin-top: -15px;
+	border: 1px solid #0d4872;
+	border-radius: 4px;
+	height: 25px;
+	width: 30px;
+	background: #ffffff url("../images/sprite_main.png") no-repeat;
+	background-position: -195px -75px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	z-index: 55;
+}
+
+.menu .selection {
+	
+}
+.menu .selection select {
+	
 }
 .dropdown {
 	width: 16.6666667%;
 	display: inline-block;
 	position: relative;
+	border-left: 2px groove #5e9bc2
 }
+
 .dropdown__header {
 	color: inherit;
 	padding: 15px 0;
@@ -27,6 +49,10 @@
 	background: url("../images/arrow_menu.png") no-repeat;
 	background-position: 160px 25px;
 	position: relative;
+
+}
+.dropdown:first-of-type {
+	border-left: none;
 }
 .dropdown:hover .dropdown__header{
 	color: #105a8f;
@@ -41,11 +67,11 @@
 	visibility: hidden;
 	position: absolute;
 	list-style: none;
-	top: 66px;
+	top: 64px;
 	width: 400%;
 	background-color: #ffffff;
 	text-align: left;
-	z-index: 66;
+	z-index: 54;
 	overflow: hidden;
 	border: solid 7px #71a2c2; 
 	border-radius: 7px;
@@ -56,6 +82,15 @@
 .fulldrop-right {
 	right: -7px;
 }
+.fulldrop__column {
+	padding: 10px 35px;
+}
+.column__heading {
+	margin: 10px 0;
+}
+.fulldrop__column ul li {
+	margin: 2px 0;
+}
 .dropdown:hover {
 	background-color: #ffffff;
 }
@@ -64,17 +99,17 @@
 	opacity: 1;
 	visibility: visible;
 }
-.column {
+.fulldrop__column {
 	width: 25%;
 	display: block;
 	float: left;
 	color: #ffffff;
 }
-.column ul {
+.fulldrop__column ul {
 	padding: 0;
 	margin: 0;
 }
-.column ul li {
+.fulldrop__column ul li {
 	list-style: none;
 }
 
@@ -87,12 +122,34 @@
 }
 @media (max-width: 999px) {
 	.dropdown {
+		position: static;
+	}
+	.dropdown__header {
 		display: none;
 	}
-	.menu .selection select option[value="01"]:checked ~ .menu .dropdown .fulldrop{
-		display: block;
-		opacity: 1;
+	.fulldrop,
+	.fulldrop-right {
 		visibility: visible;
+		display: none;
+		top: -5px;
+		left: 0;
+		width: 100%;
+	}
+	.fulldrop__column {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.menu {
+		padding: 0 8px;
+		position: relative;
+		height: 35px;
+	}
+	.menu .selection select {
+		float: left;
+		margin-top: -13px;
+	}
+	.column__heading {
+		margin-top: 20px;
 	}
 }
 @media (max-width: 599px) {
