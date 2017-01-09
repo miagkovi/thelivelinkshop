@@ -20,6 +20,8 @@ footer nav ul li {
 	background: url(../images/sprite_social.png) no-repeat;
 }
 .social-text {
+	position: relative;
+	top: -10px;
 }
 .social-icon__fb {
 	background-position: 0px 0px;
@@ -72,9 +74,14 @@ footer .skew-button {
 	.footer__social {
 		text-align: center;
 	}
+	.footer__social li {
+		margin: 0 10px;
+	}
 }
 @media (max-width: 599px) {
-
+	.footer__social li {
+		display: block;
+	}
 }
 
 

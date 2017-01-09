@@ -1,3 +1,5 @@
+//
+
 // (function(){
 	// var specialOffers = document.getElementById("specialOffers");
 	// var bestsellers = document.getElementById("bestsellers");
@@ -40,6 +42,8 @@
 // 	latests.style.marginLeft,
 // 	soonests.style.marginLeft = "0";
 
+// one object
+
 // var app = {
 // 	increment: 230,
 // 	margin: 0,
@@ -68,6 +72,8 @@
 // 		};
 // 	}
 // };
+
+//independent margins
 
 var App = function(id) {
 	//constructor

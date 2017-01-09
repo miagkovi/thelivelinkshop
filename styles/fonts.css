@@ -26,7 +26,7 @@ font-family: Arial, sans-serif;
 /********************************header section********************************/
 
 	header nav ul li a {
-		/*color: #105a8f;*/
+		color: #105a8f;
 		font-size: 0.8125em;
 	}
 	header .cart__button__text {
@@ -46,7 +46,7 @@ font-family: Arial, sans-serif;
 	header .log-in__link__not-dis,
 	header .log-in__link__dis {
 		font-size: 0.8125em;
-		/*color: #105a8f;*/
+		color: #105a8f;
 	}
 	header .header__phone-number {
 		font-size: 1.4375em;
@@ -54,6 +54,10 @@ font-family: Arial, sans-serif;
 	}
 	header .header__phone-number b {
 		font-size: 1.4782em;
+	}
+	.cart__button__item-count {
+		color: red;
+		font-weight: bold;
 	}
 
 /********************************main-menu section********************************/
@@ -170,7 +174,7 @@ font-family: Arial, sans-serif;
 			font-weight: bold;
 		}
 		.manufacturers__link ul li a {
-			/*color: #105a8f;*/
+			color: #105a8f;
 			font-size: 0.6875em;
 		}
 
@@ -192,24 +196,17 @@ font-family: Arial, sans-serif;
 
 /********************************footer section********************************/
 
-	footer nav ul li a {
-		/*color: #105a8f;*/
+	footer nav ul li a,
+	footer .social-text {
+		color: #105a8f;
 		font-size: 0.8125em;
 	}
 	.footer__copyrights {
 		font-size: 0.9375em;
 	}
-	footer .social-text {
-		/*color: #105a8f;*/
-		font-size: 0.8125em;
-	}
 	.footer__working-hours,
-	.footer__pay {
-		font-size: 0.8125em;
-	}
-	.footer__address {
-		font-size: 0.8125em;
-	}
+	.footer__pay,
+	.footer__address,
 	.footer__callback {
 		font-size: 0.8125em;
 	}
@@ -253,6 +250,26 @@ font-family: Arial, sans-serif;
 	}
 }
 @media (max-width: 599px) {
-
+		.manufacturers__link ul li a,
+		.manufacturers__heading,
+		header .cart__button__text {
+			font-size: 0.6875em;
+		}
+		header .header__phone-number,
+		header .header__phone-number b {
+			font-size: 1em;
+		}
+		.skew-button {
+			font-size: 0.6875em;
+		}
+		.promo__pic__heading {
+			font-size: 1.25em;
+		}
+		.promo__pic__text {
+			font-size: 0.8125em;
+		}
+		.promo__btn-link {
+			font-size: 0.6875em;
+		}
 }
 
