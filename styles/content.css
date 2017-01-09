@@ -42,7 +42,7 @@
 	display: inline-block;
 	color: #ffffff;
 	text-decoration: none;
-	padding: 5px 10px;
+	padding: 10px 30px;
 	border: 1px #6d6d6d groove;
 	border-radius: 4px;
 	background: -moz-linear-gradient(290deg, #20c0cd 0%, #42589D 34%, #5e0477 62%, #5e0477 100%); /* ff3.6+ */
@@ -64,6 +64,13 @@
 	display: block;
 	float: left;
 	background-size: cover;
+}
+.promo__pic__all {
+	margin: 7px 0 0px 30px;
+	padding-right: 40px;
+}
+.promo__pic__text {
+	margin: 10px 0;
 }
 .promo__pic:nth-child(1) {
 	background: #ffffff url("../images/slide_big.jpg") no-repeat;
@@ -109,12 +116,15 @@
 	margin-left: -400%;
 }
 /*****************************************shares*****************************************/
-
+.shares {
+	padding-left: 20px;
+}
 .share__img {
 	margin: 5px 20px;
 	float: left;
 }
 .share__text {
+	line-height: 18px;
 }
 .share__link {
 }
@@ -350,6 +360,7 @@
 }
 .manufacturers__link ul li {
 	list-style-type: none;
+	margin: 5px 0;
 }
 .img-brand {
 	height: 50px;
@@ -406,7 +417,9 @@
 }
 /*******************************articles-and-reviews section*******************************/
 .articles-and-reviews {
-	margin: 20px 0;
+	border-top: 1px solid #e6e6e6;
+	margin: 30px 0;
+	padding-top: 30px;
 }
 .articles-and-reviews article {
 	margin: 10px 0;
@@ -415,12 +428,15 @@
 .articles__image {
 	clear: both;
 	display: inline-block;
+	margin-right: 20px;
 }
 .articles__heading {
 	display: inline-block;
+	margin: 10px 0;
 }
 .articles__text {
 	display: inline-block;
+	line-height: 18px;
 }
 /******************************************media******************************************/
 @media (max-width: 1199px) {

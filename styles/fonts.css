@@ -92,7 +92,7 @@ font-family: Arial, sans-serif;
 			color: #6640c7;
 		}
 		.promo__pic__text {
-			font-size: 1.0625em;
+			font-size: 1.125em;
 			color: #333333;
 		}
 		.promo__btn-link {
@@ -228,3 +228,31 @@ font-family: Arial, sans-serif;
 		color: #999999;
 		font-size: 0.6875em;
 	}
+
+/******************************************media******************************************/
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 999px) {
+	header .header__phone-number {
+		font-size: 1.125em;
+	}
+	header .header__phone-number b {
+		font-size: 1em;/*18/18*/
+		font-weight: 400;
+	}
+	header .cart__button__text {
+		font-size: 0.8125em;
+	}
+	.selection__option {
+		font-weight: bold;
+		font-size: 1em;
+	}
+	.manufacturers__link ul li a {
+		font-size: 0.9375em;
+	}
+}
+@media (max-width: 599px) {
+
+}
+

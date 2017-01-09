@@ -1,11 +1,10 @@
 /*******************************footer*******************************/
 .footer__copyrights {
 	border-top: 4px #175b8e solid;
-	padding-top: 10px;
-	margin: 10px 0;
+	padding-top: 20px;
 }
 footer nav {
-	margin: 5px 0 25px 0;
+	margin: 5px 0 30px 0;
 }
 footer nav ul li {
 	margin: 0 5px;
@@ -31,6 +30,28 @@ footer nav ul li {
 .social-icon__tw {
 	background-position: 0px -64px;
 }
+.footer__working-hours {
+	line-height: 24px;
+}
+.footer__pay {
+	margin-top: 15px;
+}
+.footer__pay img {
+	margin-top: 5px;
+}
+footer .skew-button {
+	margin: 15px 0;
+}
+.footer__address {
+	line-height: 25px;
+}
+.footer__act {
+	line-height: 70px;
+}
+.OWOX__text,
+.OWOX__year {
+	line-height: 15px;
+}
 /**********************************media**********************************/
 @media (max-width: 1199px) {
 	.footer__social li {
@@ -40,6 +61,16 @@ footer nav ul li {
 @media (max-width: 999px) {
 	.footer__social li {
 		display: inline;
+	}
+	.OWOX {
+		text-align: center;
+		border-top: 1px solid #e6e6e6;
+		margin-top: 20px;
+		padding-top: 20px;
+		margin-bottom: 40px;
+	}
+	.footer__social {
+		text-align: center;
 	}
 }
 @media (max-width: 599px) {

@@ -405,12 +405,12 @@
 
 					<li class="undisplay-xl undisplay-lg display-md selection">
 						<select id="select">
-							<option selected value="01">ПК и Серверы Prime PC</option>
-							<option value="02">Компьютеры и периферия</option>
-							<option value="03">Программное обеспечение</option>
-							<option value="04">Сети и теле- коммуникации</option>
-							<option value="05">Системы безопасности</option>
-							<option value="06">Бесперебойная работа</option>
+							<option selected value="01" class="selection__option">ПК и Серверы Prime PC</option>
+							<option value="02" class="selection__option">Компьютеры и периферия</option>
+							<option value="03" class="selection__option">Программное обеспечение</option>
+							<option value="04" class="selection__option">Сети и теле- коммуникации</option>
+							<option value="05" class="selection__option">Системы безопасности</option>
+							<option value="06" class="selection__option">Бесперебойная работа</option>
 						</select>
 					</li>
 					<li class="undisplay-xl undisplay-lg display-md">
@@ -441,7 +441,7 @@
 							<script id="promosTpl" type="text/template">
 								{{ #promos }}
 									<div class="promo__pic" id="{{ id }}">
-										<div class="col-1-of-2-xl col-2-of-3-lg col-2-of-3-md">
+										<div class="col-1-of-2-xl col-2-of-3-lg col-2-of-3-md promo__pic__all">
 											<h1 class="promo__pic__heading">{{ heading }}</h1>
 											<p class="promo__pic__text">{{ text }}</p>
 											<a href="{{ a_href }}" class="promo__btn-link">{{ a_text }}</a>
@@ -513,10 +513,10 @@
 								<span class="skew-button__arrow"> &#x279E;</span>
 							</a>
 							<div class="special-offers__arrow-l-wrapper">
-								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="specialOffersApp.left();"></span>
 							</div>
 							<div class="special-offers__arrow-r-wrapper">
-								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="specialOffersApp.right();"></span>
 							</div>
 
 							<div class="slide-section row" id="offers-mustache">
@@ -562,10 +562,10 @@
 								<span class="skew-button__arrow"> &#x279E;</span>
 							</a>
 							<div class="special-offers__arrow-l-wrapper">
-								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="bestsellersApp.left();"></span>
 							</div>
 							<div class="special-offers__arrow-r-wrapper">
-								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="bestsellersApp.right();"></span>
 							</div>
 
 							<div class="slide-section row" id="bestsellers-mustache">
@@ -611,10 +611,10 @@
 								<span class="skew-button__arrow"> &#x279E;</span>
 							</a>
 							<div class="special-offers__arrow-l-wrapper">
-								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="latestsApp.left();"></span>
 							</div>
 							<div class="special-offers__arrow-r-wrapper">
-								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="latestsApp.right();"></span>
 							</div>
 
 							<div class="slide-section row" id="latests-mustache">
@@ -660,10 +660,10 @@
 								<span class="skew-button__arrow"> &#x279E;</span>
 							</a>
 							<div class="special-offers__arrow-l-wrapper">
-								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="app.left();"></span>
+								<span class="arrow-fefe arrow-fefe-l" id="specialOffersBtnLeft" onclick="soonestsApp.left();"></span>
 							</div>
 							<div class="special-offers__arrow-r-wrapper">
-								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="app.right();"></span>
+								<span class="arrow-fefe arrow-fefe-r" id="specialOffersBtnRight" onclick="soonestsApp.right();"></span>
 							</div>
 
 							<div class="slide-section row" id="soonests-mustache">
@@ -931,10 +931,10 @@
 					<div class="col-1-of-4-xl col-1-of-4-lg col-1-of-2-md">
 						<p class="footer__address">Украина, Киев, ул. Ленинаб 31</p>
 						<p class="footer__phone">(044)<b>555-00-00</b></p>
-						<a href="#" class="footer__callback a-dtd">Обратный звонок</a>
+						<a href="#" class="footer__callback a-dtd">Обратный звонок</a><br />
 						<a href="#" class="skew skew-button">
 							<span class="skew-button__text text-decor-none a-dtd">Форма обратной связи</span>
-						</a>
+						</a><br />
 						<a href="#" class="footer__act">Условия использования сайта</a>
 					</div>
 					<div class="col-1-of-4-xl col-1-of-4-lg col-1-of-2-md">
