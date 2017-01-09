@@ -2,6 +2,9 @@
 header {
 	margin-top: 15px;
 	background: -webkit-linear-gradient(bottom, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
+	background: -moz-linear-gradient(bottom, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
+	background: -o-linear-gradient(bottom, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
+	background: -ms-linear-gradient(bottom, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
 	background: linear-gradient(to top, #ffffff 0%, #eeeeee 40%, #ffffff 100%);
 }
 .header__nav ul li {
@@ -51,10 +54,14 @@ header {
 	padding-top: 50px;
 	border: 1px solid #6cbe68;
 	border-radius: 5px;
+	background: -webkit-linear-gradient(bottom, #e1e1e1 0%, #ffffff 100%);
+	background: -moz-linear-gradient(bottom, #e1e1e1 0%, #ffffff 100%);
+	background: -ms-linear-gradient(bottom, #e1e1e1 0%, #ffffff 100%);
+	background: -o-linear-gradient(bottom, #e1e1e1 0%, #ffffff 100%);
 	background: linear-gradient(to top, #e1e1e1 0%, #ffffff 100%);
 }
 .support-button:hover {
-	box-shadow: 0px 0px 20px 2px #6cbe68;
+	box-shadow: 0 0 20px 2px #6cbe68;
 }
 .support-button__image {
 	width: 100px;
@@ -95,6 +102,10 @@ header {
 	height: 54px;
 	border: 1px solid #cecece;
 	border-radius: 4px;
+	background: -webkit-linear-gradient(bottom, #f5f5f5 0%, #fffdfe 50%, #f5f5f5 100%);
+	background: -moz-linear-gradient(bottom, #f5f5f5 0%, #fffdfe 50%, #f5f5f5 100%);
+	background: -ms-linear-gradient(bottom, #f5f5f5 0%, #fffdfe 50%, #f5f5f5 100%);
+	background: -o-linear-gradient(bottom, #f5f5f5 0%, #fffdfe 50%, #f5f5f5 100%);
 	background: linear-gradient(to top, #f5f5f5 0%, #fffdfe 50%, #f5f5f5 100%);
 	display: table;
 	text-align: center;
@@ -198,11 +209,3 @@ header {
 		margin: 0 30px;
 	}
 }
-}
-
-
-
-
-
-
-

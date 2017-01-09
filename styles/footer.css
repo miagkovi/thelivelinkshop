@@ -24,13 +24,13 @@ footer nav ul li {
 	top: -10px;
 }
 .social-icon__fb {
-	background-position: 0px 0px;
+	background-position: 0 0;
 }
 .social-icon__vk {
-	background-position: 0px -32px;
+	background-position: 0 -32px;
 }
 .social-icon__tw {
-	background-position: 0px -64px;
+	background-position: 0 -64px;
 }
 .footer__working-hours {
 	line-height: 24px;
@@ -83,7 +83,6 @@ footer .skew-button {
 		display: block;
 	}
 }
-
 
 
 

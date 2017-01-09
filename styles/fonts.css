@@ -67,15 +67,15 @@ font-family: Arial, sans-serif;
 		font-size: 0.9375em;
 		font-weight: bold;
 	}
+	.column__heading a,
 	.column__heading {
 		color: #333333;
+		font-weight: bold;
+	}
+	.column__heading {
 		font-size: 0.9375em;
-		font-weight: bold;
 	}
-	.column__heading a {
-		color: #333333;
-		font-weight: bold;
-	}
+	
 	.fulldrop__column ul li a {
 		font-size: 0.8125em;
 		color: #105a8f;
@@ -272,4 +272,3 @@ font-family: Arial, sans-serif;
 			font-size: 0.6875em;
 		}
 }
-

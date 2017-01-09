@@ -40,6 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .skew {
 	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
 	transform: skew(-20deg);
 }
 .skew-button {
@@ -48,18 +51,30 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	text-decoration: none;
 	padding: 3px 6px;
+	background: #e1e1e1;
+	background: -webkit-linear-gradient(bottom, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
+	background: -webkit-gradient(bottom, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
+	background: -moz-linear-gradient(bottom, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
+	background: -o-linear-gradient(bottom, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
+	background: -ms-linear-gradient(bottom, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
 	background: linear-gradient(to top, #ffffff 0%, #e1e1e1 50%, #ffffff 100%);
 	cursor: pointer;
 }
 
 .skew-button__text {
 	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-ms-transform: skew(20deg);
+	-o-transform: skew(20deg);
 	transform: skew(20deg);
 	display: inline-block;
 	text-decoration: underline;
 }
 .skew-button__arrow {
 	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-ms-transform: skew(20deg);
+	-o-transform: skew(20deg);
 	transform: skew(20deg);
 	display: inline-block;
 }
