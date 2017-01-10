@@ -75,21 +75,34 @@
 
 //independent margins
 
-var App = function(id) {
+var App = function(elemId, leftBtnId, rightBtnId) {
 	//constructor
-	this.id = document.getElementById(id);
+	this.elem = document.getElementById(elemId);
+	this.lBtn = document.getElementById(leftBtnId);
+	this.rBtn = document.getElementById(rightBtnId);
 	this.increment = 230;
 	this.margin = 0;
-	this.id.style.marginLeft = "0";
+	this.elem.style.marginLeft = "0";
 };
 
 App.prototype.right = function() {
 	//right move
 	if (this.margin > -2300/2) {
 		this.margin = this.margin - this.increment;
-		this.id.style.marginLeft = this.margin + "px";
+		this.elem.style.marginLeft = this.margin + "px";
 	} else {
 		this.margin = this.margin;
+	};
+	//control over arrows classes
+	if (this.margin !== 0) {
+		this.lBtn.classList.add("arrow-fefe-l-a");
+	} else {
+		this.lBtn.classList.remove("arrow-fefe-l-a");
+	};
+	if (this.margin === -2300/2) {
+		this.rBtn.classList.add("arrow-fefe-r");
+	} else {
+		this.rBtn.classList.remove("arrow-fefe-r");
 	};
 };
 
@@ -97,13 +110,24 @@ App.prototype.left = function() {
 	//left move
 	if (this.margin < 0) {
 		this.margin = this.margin + this.increment;
-		this.id.style.marginLeft = this.margin + "px";
+		this.elem.style.marginLeft = this.margin + "px";
 	} else {
 		this.margin = this.margin;
 	};
+	//control over arrows classes
+	if (this.margin !== 0) {
+		this.lBtn.classList.add("arrow-fefe-l-a");
+	} else {
+		this.lBtn.classList.remove("arrow-fefe-l-a");
+	};
+	if (this.margin === -2300/2) {
+		this.rBtn.classList.add("arrow-fefe-r");
+	} else {
+		this.rBtn.classList.remove("arrow-fefe-r");
+	};
 };
 
-var specialOffersApp = new App("specialOffers");
-var bestsellersApp = new App("bestsellers");
-var latestsApp = new App("latests");
-var soonestsApp = new App("soonests");
+var specialOffersApp = new App("specialOffers", "specialOffersBtnLeft", "specialOffersBtnRight");
+var bestsellersApp = new App("bestsellers", "bestsellersBtnLeft", "bestsellersBtnRight");
+var latestsApp = new App("latests", "latestsBtnLeft", "latestsBtnRight");
+var soonestsApp = new App("soonests", "soonestsBtnLeft", "soonestsBtnRight");

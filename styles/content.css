@@ -346,28 +346,28 @@
 }
 .arrow-fefe {
 	position: absolute;
-	background: url(../images/sprite_arrows.png) no-repeat;
+	background: url(../images/sprite_main.png) no-repeat;
 	height: 55px;
 	width: 25px;
 	top: 25%;
 	cursor: pointer;
 	z-index: 888;
 }
-.arrow-fefe-l-a {
-	left: 5px;
-	background-position: 0 -60px;
-}
 .arrow-fefe-l {
 	left: 5px;
-	background-position: 0 0;
+	background-position: -460px 0;
 }
 .arrow-fefe-r-a {
 	right: 5px;
-	background-position: -25px -60px;
+	background-position: -485px -60px;
+}
+.arrow-fefe-l-a {
+	left: 5px;
+	background-position: -460px -60px;
 }
 .arrow-fefe-r {
 	right: 5px;
-	background-position: -25px 0;
+	background-position: -485px 0;
 }
 /**********************************manufacturers section**********************************/
 .manufacturers__logo {
